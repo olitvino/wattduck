@@ -1,4 +1,4 @@
-# wattduck
+# wattduck🦆
 A watt usage indicator extension for the gnome-shell
 
 ![wattduck in action](https://github.com/osphost/wattduck/raw/master/media/gnome-taskbar-full.png "wattduck in action")
