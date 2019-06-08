@@ -9,6 +9,10 @@ It aims to be fast, efficient, simple and clean.
 wattduck works by asynchronously polling `/sys/class/power_supply/BAT*/power_now` and has been tested
 under `archlinux` and `manjaro`.
 
+## installation
+wattduck will soon be available the gnome-extensions site and on the AUR. 
+For manual installation, simply extract the `wattduck@osphost.github.com` folder to `/usr/share/gnome-shell/extensions/` and restart your gnome-shell session by holding `alt + F2` and then entering `r` into the gnome command dialog.
+
 ## feature roadmap
  - additional display options
  - process based power consumption via `powertop` or similar
@@ -16,3 +20,6 @@ under `archlinux` and `manjaro`.
 
 ## contribute
 Contributors welcome. If you would like to help, please just create a ticket.
+
+## license
+Licensed under GPL v3.0
