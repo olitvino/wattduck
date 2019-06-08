@@ -11,7 +11,14 @@ under `archlinux` and `manjaro`.
 
 ## installation
 wattduck will soon be available the gnome-extensions site and on the AUR. 
-For manual installation, simply extract the `wattduck@osphost.github.com` folder to `/usr/share/gnome-shell/extensions/` and restart your gnome-shell session by holding `alt + F2` and then entering `r` into the gnome command dialog.
+For manual installation via git:
+
+```
+git clone https://github.com/osphost/wattduck.git
+mkdir -p ~/.local/share/gnome-shell/extensions
+cp -r ./wattduck/wattduck@osphost.github.com ~/.local/share/gnome-shell/extensions
+```
+  > Then **restart your gnome-shell session** by holding `alt + F2` and then entering `r` into the gnome command dialog.
 
 ## feature roadmap
  - additional display options
