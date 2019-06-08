@@ -1,6 +1,8 @@
 # wattduck
 A watt usage indicator extension for the gnome-shell
 
+![alt text](https://github.com/osphost/wattduck/raw/master/media/gnome-taskbar-full.png "wattduck in action")
+
 ## about
 wattduck provides a simple indicator for battery power usage to the gnome-shell status bar.
 It aims to be fast, efficient, simple and clean.
