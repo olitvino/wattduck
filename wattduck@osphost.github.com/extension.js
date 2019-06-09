@@ -175,7 +175,7 @@ function _refresh() {
  * @public
  */
 function enable() {
-    Main.panel.addToStatusArea('wattduck-indicator', indicator);
+    _refresh();
     Main.panel.statusArea['wattduck-indicator'].actor.visible = true;
 }
 
@@ -184,7 +184,8 @@ function enable() {
  * @public
  */
 function disable() {
-    indicator.destroy();
+    Main.panel.statusArea['wattduck-indicator'].actor.visible = false;
+    _removeTimeout();
 }
 
 /**
@@ -193,6 +194,7 @@ function disable() {
  */
 function init() {
     indicator = new IndicatorButton();
+    Main.panel.addToStatusArea('wattduck-indicator', indicator);
     _refresh();
 }
 

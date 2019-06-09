@@ -2,5 +2,5 @@
   "name": "Wattduck Power Indicator",
   "description": "Monitor the power consumption of your system",
   "uuid": "wattduck@osphost.github.com",
-  "shell-version": ["3.32.2"]
+  "shell-version": ["3.31.0", "3.32.0", "3.32.1", "3.32.2"]
 }
